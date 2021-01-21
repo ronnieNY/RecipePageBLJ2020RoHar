@@ -1,0 +1,42 @@
+.navbar-brown {
+	background: #553B1A;
+	outline: 2px solid #201201;
+	box-shadow: 0 0 15px #000000;
+	z-index: 100;
+}
+
+.navbar-brown a {
+	color: #FFFFFF;
+}
+
+.more-dropdown {
+	transform: translateX(-50%);
+}
+
+.more-dropdown a {
+	color: #000000;
+}
+
+.background-container {
+	border: 5px solid red;
+	height: 35vh;
+	overflow: hidden;
+}
+
+.background-container img {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -10;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+section {
+	width: 90%;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
