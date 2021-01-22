@@ -10,7 +10,7 @@
 }
 
 .more-dropdown {
-	transform: translateX(-50%);
+	margin-left: -80px;
 }
 
 .more-dropdown a {
@@ -21,17 +21,18 @@
 	width: 100%;
 	height: 35vh;
 	overflow: hidden;
-	top: 0;
+	z-index: -10;
 }
 
 .background-container img {
 	display: block;
 	position: relative;
-	min-width: 100%;
-	z-index: -10;
+	max-width: 100%;
+	z-index: 0;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	filter: none;
 }
 
 h1, h2, h3 {
@@ -49,7 +50,7 @@ p {
 }
 
 section {
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 	background: #FFFFFF;
 	font-size: 20pt;
@@ -60,8 +61,39 @@ section {
 	padding: 0;
 }
 
-.section-img {
+.ingredients-img {
 	position: relative;
-	height: 400px;
+	height: 330px;
 	float: right;
+}
+
+.step-img {
+	width: 100%;
+	box-shadow: 0 0 1vw #000000;
+}
+
+.recipe-step .col-sm-12 {
+	padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1199px) {
+	.ingredients-img {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.more-dropdown {
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 565px) {
+	.background-container img {
+		height: 100%;
+		max-width: none;
+	}
 }
