@@ -85,7 +85,7 @@ section {
 	}
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 	.more-dropdown {
 		margin-left: 0px;
 	}
