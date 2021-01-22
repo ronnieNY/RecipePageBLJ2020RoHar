@@ -81,6 +81,14 @@ section {
 	padding-bottom: 10px;
 }
 
+.impressum {
+	margin-bottom: 200px;
+}
+
+.impressum h1, .impressum h2, .impressum h3 {
+	text-align: left;
+}
+
 
 @media screen and (max-width: 1199px) {
 	.ingredients-img {
