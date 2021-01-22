@@ -104,7 +104,7 @@ section {
 	}
 }
 
-@media screen and (max-width: 464px) {
+@media screen and (max-aspect-ratio: 23/50) {
 	.background-container img {
 		height: 100%;
 		max-width: none;
